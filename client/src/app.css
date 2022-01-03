@@ -1,0 +1,18 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+input {border:1px solid #ddd; outline: none; border-radius:0;}
+textarea {border:1px solid #ddd; outline: none; border-radius: 0;}
+button {border: none; outline: none; cursor: pointer;}
+
+.App {text-align: center; width:90%; max-width:900px; margin:50px auto;}
+
+.movie-cont {margin:30px auto; width:100%; border: solid #fdbc44; padding:20px 40px; border-width:2px 2px 0 2px;}
+.movie-cont:last-child {border-width:2px;}
+.movie-box {padding:20px 0; border-bottom:1px dotted #fca624;}
+.movie-box:last-child {border-bottom: none;}
+
+.form-wrap {width:80%; margin:0 auto;}
+.tit-input {width:100%; height:30px; margin:20px 0; padding:0 10px; font-size:0.8rem;}
+.txt-area {width:100%; min-height: 200px; resize: none; padding: 10px;}
+.submit-btn {width:200px; height:40px; font-size:1rem; line-height: 40px; background: #fca624; border-radius: 10px; color:#fff; margin-top:20px;}
+
+.ck.ck-editor__editable:not(.ck0editor__nested-editable) {min-height: 200px;}
