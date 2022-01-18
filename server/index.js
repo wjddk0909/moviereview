@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/api/get", (req, res)=>{
     const sqlQuery = "SELECT * FROM simpleboard;";
     db.query(sqlQuery, (err, result)=>{
-        res.header("Access-Control-Allow-Origin", "*");
+        res.header("Access-Control-Allow-Origin", "*"); // cors오류 때문에 cross-origin HTTP 요청 허가하는 헤더 추가
         res.send(result);
     })
 })
